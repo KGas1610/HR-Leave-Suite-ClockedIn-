@@ -1,0 +1,39 @@
+# ________APPLICATION RUN GUIDE__________
+
+# ~ ~ Setup configuration ~ ~
+# 1. Make sure that requirements.txt dependencies are installed in the python environment
+
+# pip install -r requirements.txt
+
+# 2. Start up the API server (see below):
+
+# ~ the two commands below are used in the terminal to run the live server
+# ~ the first command is a shorthand if the directory is set correctly
+# ~ the second command specifies the full path to the app directory
+
+# uvicorn IFS140api.main:app --reload
+# python -m uvicorn IFS140api.main:app --reload --app-dir /home/kgas/code/python
+
+# 3. Then paste the below line into the terminal to run the APP
+
+# python IFS140gui/IFSapp.py
+
+# ~ ~ ClockedIn GUI ~ ~
+# a. Login screen:
+# ~ There are two pre-defined user types (admin and staff):
+
+# b. Admin Dashboard:
+# ~ Example Admin user to test; username: MAN01 , password: SuchIsLife
+#
+# ~ View Employees: Displays a list of all employees
+# ~ Add Employee: Fill in the form to add a new employee
+# ~ Update Employee: Select an employee from the list and update their details
+# ~ Delete Employee: Select an employee from the list and delete them
+# ~ Manage leave requests: View and approve/reject leave requests from staff
+
+# c. Staff Dashboard:
+# ~ Example Staff user to test; username: IKOL03 , password: 4514785
+#
+# ~ View Profile: Displays the logged-in staff member's profile details
+# ~ Request Leave: Fill in the form to request leave
+# ~ View Leave Status: View the status of submitted leave requests
