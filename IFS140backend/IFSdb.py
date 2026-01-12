@@ -17,12 +17,12 @@ def ensure_parent():
 # Sample employee data to seed the database
 employees_data: Dict[str, dict] = {
     "MAN01": {"name": "Patrick", "password": "SuchIsLife", "leave_available": 45, "role": "Manager"},
-    "KGAS01": {"name": "Kaleb", "password": "4515449", "leave_available": 27, "role": "Admin"},
-    "MBAT02": {"name": "Mbasa", "password": "4540469", "leave_available": 32, "role": "Frontend Dev"},
-    "IKOL03": {"name": "Inga", "password": "4514785", "leave_available": 14, "role": "Chief Consultant"},
-    "TMOK04": {"name": "Tshwaraganang", "password": "4564064", "leave_available": 30, "role": "System Analyst"},
-    "AKRI05": {"name": "Ayron", "password": "4556168", "leave_available": 23, "role": "Backend Dev"},
-    "SMAT06": {"name": "Sekwele", "password": "4546163", "leave_available": 10, "role": "Data Analyst"},
+    "KGAS01": {"name": "Kaleb", "password": "451", "leave_available": 27, "role": "Admin"},
+    "MBAT02": {"name": "Mbasa", "password": "454", "leave_available": 32, "role": "Frontend Dev"},
+    "IKOL03": {"name": "Inga", "password": "451", "leave_available": 14, "role": "Chief Consultant"},
+    "TMOK04": {"name": "Tshwaraganang", "password": "456", "leave_available": 30, "role": "System Analyst"},
+    "AKRI05": {"name": "Ayron", "password": "455", "leave_available": 23, "role": "Backend Dev"},
+    "SMAT06": {"name": "Sekwele", "password": "454", "leave_available": 10, "role": "Data Analyst"},
 }
 
 def setup_database():
